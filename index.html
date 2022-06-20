@@ -1,14 +1,114 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/styles.css">
-    <title>Document</title>
-  </head>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/styles.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <title>Matt Bowen Portfolio</title>
+</head>
 
-  <body>
-    
-  </body>
+<body>
+  <header>
+    <nav>
+      <div class="logo">
+        <a href="#"><h1>Matt Bowen | <span class="logo2">Portfolio</span></h1></a>
+      </div>
+      <ul class="menu">
+        <li><a class="menuItem" href="#hero">About</a></li>
+        <li><a class="menuItem" href="#projects">Projects</a></li>
+        <li><a class="menuItem" href="#contact">Contact</a></li>
+      </ul>
+      <button class="hamburger">
+        <i class="menuIcon material-icons">menu</i>
+        <i class="closeIcon material-icons">close</i>
+      </button>
+    </nav>
+  </header>
+
+  <section class="hero" id="hero">
+    <div class="row">
+      <div class="heroLeft">
+        <h1>About Me</h1>
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam consequatur iure in, laudantium repellendus, dolor autem dignissimos corrupti blanditiis, animi reiciendis iste facilis quos obcaecati porro eligendi itaque esse quis.</h2>
+        <a href="https://github.com/mattbowen03" target="_blank">
+          <img src="./images/github-logo-24.png" alt="Link to github">
+        </a>
+        <a href="https://www.linkedin.com/in/matt-bowen-b12a7764/" target="_blank">
+          <img src="./images/linkedin-square-logo-24.png" alt="Link to LinkedIn">
+        </a>
+      </div>
+      <div class="heroRight">
+        <img class="headShot" src="./images/Head Shot - Square.jpg" alt="Photo of Matt Bowen">
+      </div>
+    </div>
+  </section>
+
+  <section class="projects" id="projects">
+    <div class="projectsTitle">
+      <h1>Projects</h1>
+    </div>
+    <div class="row row1">
+      <div class="projContainer proj1">
+        <h2>Project 1</h2>
+        <img src="./images/370-150.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi dolore eos iusto.</p>
+      </div>
+      <div class="projContainer proj2">
+        <h2>Project 2</h2>
+        <img src="./images/370-150.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi dolore eos iusto.</p>
+      </div>
+      <div class="projContainer proj3">
+        <h2>Project 3</h2>
+        <img src="./images/370-150.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi dolore eos iusto.</p>
+      </div>
+    </div>
+
+    <div class="row showRow2 row2">
+      <div class="projContainer proj4">
+        <h2>Project 4</h2>
+        <img src="./images/370-150.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi dolore eos iusto.</p>
+      </div>
+      <div class="projContainer proj5">
+        <h2>Project 5</h2>
+        <img src="./images/370-150.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi dolore eos iusto.</p>
+      </div>
+      <div class="projContainer proj6">
+        <h2>Project 6</h2>
+        <img src="./images/370-150.jpg" alt="">
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab sequi dolore eos iusto.</p>
+      </div>
+    </div>
+
+    <div class="projDropDn">
+      <button id="projDropBtn">See More</button>
+    </div>
+
+  </section>
+
+  <section class="contact" id="contact">
+    <div>
+      <h1>Contact</h1>
+      <form action="https://formsubmit.co/mattbowen03@gmail.com" method="POST">
+        <input type="text" placeholder="Name">
+        <input type="text" placeholder="Email">
+        <textarea name="" id="" cols="30" rows="10">Enter your message here...</textarea>
+        <input type="submit" value="Send" id="submitBtn">
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>Designed and Developed by <a href="https://github.com/mattbowen03" target="_blank">Matt Bowen</a>
+      <br>Copyright 2022
+    </p>
+  </footer>
+
+  <script src="./scripts/script.js"></script>
+</body>
 </html>
